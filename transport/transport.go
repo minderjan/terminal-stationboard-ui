@@ -2,8 +2,8 @@ package transport
 
 import (
 	"context"
-	"github.com/minderjan/opentransport-client/opentransport"
 	"fmt"
+	"github.com/minderjan/opentransport-client/opentransport"
 	"os"
 	"strconv"
 	"time"

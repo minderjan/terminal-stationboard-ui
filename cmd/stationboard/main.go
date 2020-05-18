@@ -27,7 +27,7 @@ func main() {
 	var theme string
 	var station string
 
-	flag.StringVar(&station,"station", "", "Name or the id from of a station")
+	flag.StringVar(&station,"station", "", "Name or the id of a station")
 	flag.StringVar(&theme, "theme", "dark", "blue, light, dark")
 
 	if len(os.Args) < 2 {

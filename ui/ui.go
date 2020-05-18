@@ -37,7 +37,7 @@ type UI struct {
 }
 
 func NewUI(input string, station *opentransport.Location) *UI {
-	return setupUI(themeBlue, input, station)
+	return setupUI(themeBlack, input, station)
 }
 
 // Setup a new UI with a specific theme.
@@ -48,10 +48,12 @@ func NewUIWithTheme(input string, station *opentransport.Location, minConnection
 	return ui
 }
 
+// Run the builded UI
 func (u *UI) Run() error {
 	return u.changeScreenSafe(u.main, true)
 }
 
+// Setup the UI with all widgets on it
 func setupUI(theme Theme, input string, station *opentransport.Location) *UI {
 	u := &UI{
 		app:     tview.NewApplication(),
