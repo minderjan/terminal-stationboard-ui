@@ -19,7 +19,7 @@ You have to provide a valid station name or id which exists on [Swiss Public Tra
 ```
 Usage of stationboard:
   -station string
-    	Name or the id from of a station
+    	Name or the id of a station
   -theme string
     	blue, light, dark (default "dark")
 ```
