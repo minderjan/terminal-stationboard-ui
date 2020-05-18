@@ -2,7 +2,7 @@
 
 The Terminal Stationboard UI is a showcase application for the package [OpenTransport-Client](https://github.com/minderjan/opentransport-client).
 
-![overview](screenshot.png)
+![overview](screenshot.jpg)
 
 # Install on your System
 You can install the application by sources or download a compiled binary form the [release page](https://github.com/minderjan/terminal-stationboard-ui/releases).
