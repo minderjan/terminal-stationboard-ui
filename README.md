@@ -1,5 +1,7 @@
 # Terminal Stationboard UI
 
+![build](https://github.com/minderjan/terminal-stationboard-ui/workflows/build/badge.svg?branch=master)
+
 The Terminal Stationboard UI is a showcase application for the package [OpenTransport-Client](https://github.com/minderjan/opentransport-client).
 
 ![overview](screenshot.jpg)
